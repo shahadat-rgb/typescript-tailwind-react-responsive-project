@@ -1,0 +1,19 @@
+/* ./src/index.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+.footer_shape{
+    height: 450;
+    background: url("../src/UI/Shape_04.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+}
+.w-40{
+    width: 35%;
+    height: 2px;
+}
