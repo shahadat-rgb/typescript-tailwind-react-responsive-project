@@ -3,10 +3,10 @@ import Footer from "./Component/Footer";
 import Banner from "./Component/Banner";
 function App() {
   return (
-    <div className='container'>
-      <Banner></Banner>
+    <div>
+         <Banner></Banner>
          <Package></Package>
-          <Footer></Footer>
+         <Footer></Footer>
 
     </div>
   );

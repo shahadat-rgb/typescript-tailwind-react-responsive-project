@@ -7,13 +7,17 @@
 @tailwind utilities;
  
 .footer_shape{
-    height: 450;
+    height: 450px;
     background: url("../src/UI/Shape_04.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center center;
 }
 .w-40{
     width: 35%;
     height: 2px;
+
+}
+
+#menu-toggle:checked + #menu{
+    display: block;
 }

@@ -8,10 +8,20 @@ module.exports = {
           body : ['Poppins']
         },
         boxShadow:{
-            shadow:['1px 1px 14px #ccc6c686']
+            shadow:['1px 1px 12px #d6cfcf']
         },
 
-      }
+        padding:{
+          left:['108px'],
+          right:['108px']
+        },
+         
+        gradientColorStops: theme => ({
+          ...theme('colors'),
+          'orchid': '#e499e2',
+          
+         })
+        }
     },
     variants: {
       extend: {},
